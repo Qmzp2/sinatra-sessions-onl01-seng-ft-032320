@@ -1,4 +1,4 @@
-require_relative 'config/environment'
+require_relative 'config/environment' #note to future self: local environment generates internal service error when shotgunning this lab, too bad!
 
 class App < Sinatra::Base
   configure do
